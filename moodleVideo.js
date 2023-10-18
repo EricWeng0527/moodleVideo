@@ -1,4 +1,5 @@
 (function() {
+    console.log("loaded!");
     let htmlContent = document.documentElement.outerHTML;
     let regex = /https:\/\/.*?\.mp4"/g;
     let matches = htmlContent.match(regex);
